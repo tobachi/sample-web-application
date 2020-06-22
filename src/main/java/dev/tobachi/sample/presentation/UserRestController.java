@@ -1,7 +1,7 @@
 package dev.tobachi.sample.presentation;
 
 import dev.tobachi.sample.application.UserService;
-import dev.tobachi.sample.domain.model.User;
+import dev.tobachi.sample.domain.User;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

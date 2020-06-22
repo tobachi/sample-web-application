@@ -1,4 +1,4 @@
-package dev.tobachi.sample.domain.model;
+package dev.tobachi.sample.domain;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;

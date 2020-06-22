@@ -1,7 +1,7 @@
 package dev.tobachi.sample.application;
 
-import dev.tobachi.sample.domain.model.User;
-import dev.tobachi.sample.domain.repository.UsersRepository;
+import dev.tobachi.sample.domain.User;
+import dev.tobachi.sample.domain.UsersRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
