@@ -3,4 +3,13 @@ spring:
     url: jdbc:mysql://localhost:3306/sample?useSSL=false
     username: username
     password: password
-    driverClassName: com.mysql.jdbc.Driver
+    initializationMode: never
+    driverClassName: com.mysql.cj.jdbc.Driver
+    mysql:
+      connectionTestQuery: select 1
+  jpa:
+    database: MYSQL
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: none
